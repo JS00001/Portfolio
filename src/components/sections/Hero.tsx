@@ -7,7 +7,7 @@ export default function () {
   return (
     <Section className="grid py-48 xl:grid-cols-2">
       {/* Section Header */}
-      <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+      <div className="flex flex-col items-center text-center lg:items-start lg:text-left 2xl:mr-10">
         <div className="pb-5 text-6xl font-black leading-none md:text-8xl">
           {Content.Hero.title}
         </div>
@@ -22,7 +22,7 @@ export default function () {
       </div>
 
       {/* Hero Image */}
-      <div className="hidden items-center justify-center xl:flex">
+      <div className="hidden items-center justify-center 2xl:flex">
         <img
           src="https://media.discordapp.net/attachments/845809714364809246/953639392575127643/unknown.png?width=939&height=676"
           className="rounded-lg border border-gray-200"
