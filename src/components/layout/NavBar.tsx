@@ -38,7 +38,10 @@ export default function () {
               >
                 Projects
               </a>
-              <a className="text-gray-600 hover:text-gray-400" href="/#resume">
+              <a
+                className="text-gray-600 hover:text-gray-400"
+                href="https://docs.google.com/document/d/1BDldcHU0B3w5CL04zndtVJ3k59d3O5rRaMFugWvD3vI/edit?usp=sharing"
+              >
                 Resume
               </a>
             </div>
@@ -69,7 +72,10 @@ export default function () {
           <a className="hover:text-gray-400" href="/#projects">
             Projects
           </a>
-          <a className="hover:text-gray-400" href="/#resume">
+          <a
+            className="hover:text-gray-400"
+            href="https://docs.google.com/document/d/1BDldcHU0B3w5CL04zndtVJ3k59d3O5rRaMFugWvD3vI/edit?usp=sharing"
+          >
             Resume
           </a>
         </div>
