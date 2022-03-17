@@ -1,6 +1,6 @@
 # ⭐Jack Senyitko - Portfolio
 
-My portfolio is an open sourced and is used to show my projects, work style, lifestyle, and more. This project contains the frontend for the project, and can be accessed at https:/jsenyitko.tech
+My portfolio is an open sourced and is used to show my projects, work style, lifestyle, and more. This project contains the frontend for the project, and can be accessed at [https://jsenyitko.tech](https://jsenyitko.tech)
 
 ![screencapture-jsenyitko-tech-2022-03-17-11_46_08](https://user-images.githubusercontent.com/49812749/158838632-e8b3b0f2-de87-4436-9411-61fcb96a77a1.png)
 
