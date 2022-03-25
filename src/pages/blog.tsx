@@ -1,9 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
-import NavBar from '../components/layout/NavBar'
-import Contact from '../components/sections/Contact'
 
-const ContactPage: React.FC = () => {
+import NavBar from '../components/layout/NavBar'
+import { Section } from '../components/layout/Section'
+
+const BlogPage: React.FC = () => {
   return (
     <>
       <Head>
@@ -16,10 +17,10 @@ const ContactPage: React.FC = () => {
       </nav>
 
       <main>
-        <Contact />
+        <Section></Section>
       </main>
     </>
   )
 }
 
-export default ContactPage
+export default BlogPage

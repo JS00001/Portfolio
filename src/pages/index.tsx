@@ -1,5 +1,6 @@
 import { useQuery } from 'react-query'
 
+import React from 'react'
 import Head from 'next/head'
 import NavBar from '../components/layout/NavBar'
 
@@ -10,8 +11,8 @@ import Loading from '../components/layout/Loading'
 import Process from '../components/sections/Process'
 import Projects from '../components/sections/Projects'
 
-export default function () {
-  const { data, error, isError, isLoading } = useQuery('projects', Api.projects)
+const HomePage: React.FC = () => {
+  const { data, isLoading } = useQuery('projects', Api.projects)
 
   if (isLoading) return <Loading />
 
@@ -39,3 +40,5 @@ export default function () {
     </>
   )
 }
+
+export default HomePage

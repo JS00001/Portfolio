@@ -1,9 +1,10 @@
+import React from 'react'
 import Link from 'next/link'
 import Content from '../../content'
 import { Button } from '../shared/Button'
 import { Section } from '../layout/Section'
 
-export default function () {
+const Hero: React.FC = () => {
   return (
     <Section className="grid py-48 xl:grid-cols-2">
       {/* Section Header */}
@@ -31,3 +32,5 @@ export default function () {
     </Section>
   )
 }
+
+export default Hero

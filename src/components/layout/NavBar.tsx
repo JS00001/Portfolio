@@ -1,9 +1,10 @@
+import React from 'react'
 import Link from 'next/link'
 import { useState } from 'react'
 import { Button } from '../shared/Button'
 import { RiMenuFill } from 'react-icons/ri'
 
-export default function () {
+const NavBar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleNav = () => {
@@ -83,3 +84,5 @@ export default function () {
     </>
   )
 }
+
+export default NavBar

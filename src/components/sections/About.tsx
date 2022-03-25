@@ -1,9 +1,10 @@
+import React from 'react'
 import Content from '../../content'
 import { Social } from '../shared/Social'
 import { Section } from '../layout/Section'
 import { Paragraph } from '../shared/Paragraph'
 
-export default function () {
+const About: React.FC = () => {
   return (
     <Section className="py-36" id="about">
       <div className="grid gap-24 lg:grid-cols-7">
@@ -46,3 +47,5 @@ export default function () {
     </Section>
   )
 }
+
+export default About

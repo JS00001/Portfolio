@@ -1,10 +1,11 @@
-import Content from '../../content'
+import React from 'react'
 import Link from 'next/link'
+import Content from '../../content'
 import { Button } from '../shared/Button'
 import { Section } from '../layout/Section'
 import { ProjectStrategy } from '../shared/ProjectStrategy'
 
-export default function () {
+const Process: React.FC = () => {
   return (
     <Section className="py-36 text-center lg:text-left">
       {/* Section Header */}
@@ -40,3 +41,5 @@ export default function () {
     </Section>
   )
 }
+
+export default Process

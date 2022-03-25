@@ -1,9 +1,10 @@
+import React from 'react'
 import Link from 'next/link'
 import Content from '../../content'
 import { Section } from '../layout/Section'
 import { Button } from '../shared/Button'
 
-export default function () {
+const Contact: React.FC = () => {
   return (
     <Section className="flex flex-col items-center py-36">
       <div className="flex max-w-2xl flex-col items-center text-center">
@@ -23,3 +24,5 @@ export default function () {
     </Section>
   )
 }
+
+export default Contact

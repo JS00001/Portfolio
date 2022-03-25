@@ -1,8 +1,9 @@
+import React from 'react'
 import Content from '../../content'
 import { Section } from '../layout/Section'
 import { Project } from '../shared/Project'
 
-type Project = {
+export type Project = {
   image: string
   title: string
   description: string
@@ -10,7 +11,11 @@ type Project = {
   tag: string
 }
 
-export default function ({ projects }: { projects: Array<Project> }) {
+export type ProjectProps = {
+  projects: Project[]
+}
+
+const Projects: React.FC<ProjectProps> = ({ projects }) => {
   return (
     <Section className="py-36" id="projects">
       <div className="text-center lg:text-left">
@@ -37,3 +42,5 @@ export default function ({ projects }: { projects: Array<Project> }) {
     </Section>
   )
 }
+
+export default Projects
