@@ -1,4 +1,3 @@
-import React from 'react'
 import Head from 'next/head'
 import NavBar from '../components/layout/NavBar'
 import Contact from '../components/sections/Contact'

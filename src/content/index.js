@@ -79,4 +79,24 @@ export default {
     subtitle:
       "If you have an employment opportunity, or just want to chat, feel free to get in touch. I'm always looking for new opportunities and ways to grow. My average time to respond is less than a day. I look forward to hearing from you.",
   },
+  Navigation: {
+    items: [
+      {
+        text: 'Home',
+        link: '/',
+      },
+      {
+        text: 'About',
+        link: '/#about',
+      },
+      {
+        text: 'Projects',
+        link: '/#projects',
+      },
+      {
+        text: 'Resume',
+        link: 'https://docs.google.com/document/d/1BDldcHU0B3w5CL04zndtVJ3k59d3O5rRaMFugWvD3vI/edit?usp=sharing',
+      },
+    ],
+  },
 }

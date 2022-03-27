@@ -17,7 +17,7 @@ const About: React.FC = () => {
             {Content.About.subtitle}
           </p>
           {Content.About.paragraphs.map((paragraph, index) => {
-            return <Paragraph key={index} message={paragraph} />
+            return <Paragraph key={index}>{paragraph}</Paragraph>
           })}
         </div>
 

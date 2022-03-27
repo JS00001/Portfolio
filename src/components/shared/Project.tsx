@@ -1,7 +1,6 @@
 import Link from 'next/link'
-import { HTMLAttributes } from 'react'
 
-export type ProjectProps = HTMLAttributes<HTMLDivElement> & {
+export type ProjectProps = React.HTMLAttributes<HTMLDivElement> & {
   image: string
   tag: string
   title: string
@@ -26,11 +25,11 @@ export const Project: React.FC<ProjectProps> = ({
       >
         <img
           src={image}
-          className=" max-h-56 rounded-lg border border-gray-200"
+          className=" max-h-56 rounded-lg border border-gray-200 object-cover"
         />
         <p className="pt-6 text-xs font-medium text-gray-500">{tag}</p>
         <p className="bg-3 text-2xl font-bold">{title}</p>
-        <p className=" text-lg leading-relaxed text-gray-500">{description}</p>
+        <p className="text-lg leading-relaxed text-gray-500">{description}</p>
       </div>
     </Link>
   )

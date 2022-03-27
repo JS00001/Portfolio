@@ -1,12 +1,10 @@
-import { useQuery } from 'react-query'
-
-import React from 'react'
 import Head from 'next/head'
-import NavBar from '../components/layout/NavBar'
+import { useQuery } from 'react-query'
 
 import Api from '../api'
 import Hero from '../components/sections/Hero'
 import About from '../components/sections/About'
+import NavBar from '../components/layout/NavBar'
 import Loading from '../components/layout/Loading'
 import Process from '../components/sections/Process'
 import Projects from '../components/sections/Projects'
@@ -30,7 +28,6 @@ const HomePage: React.FC = () => {
       <main className="animate-fade-in-down">
         <Hero />
         <Process />
-        <hr className="border-gray-100" />
         <Projects projects={data} />
       </main>
 
