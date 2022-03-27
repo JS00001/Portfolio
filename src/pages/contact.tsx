@@ -11,11 +11,11 @@ const ContactPage: React.FC = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <nav>
+      <nav className="animate-fade-in-down">
         <NavBar />
       </nav>
 
-      <main>
+      <main className="animate-fade-in-down">
         <Contact />
       </main>
     </>
