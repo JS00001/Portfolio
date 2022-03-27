@@ -97,6 +97,10 @@ export default {
         text: 'Resume',
         link: 'https://docs.google.com/document/d/1BDldcHU0B3w5CL04zndtVJ3k59d3O5rRaMFugWvD3vI/edit?usp=sharing',
       },
+      {
+        text: 'Snippets',
+        link: '/snippets',
+      },
     ],
   },
 }
