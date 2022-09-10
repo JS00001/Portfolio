@@ -6,10 +6,7 @@ const sizeClassNames = {
   large: 'px-20 py-4 rounded',
 }
 
-export type ButtonProps = DetailedHTMLProps<
-  ButtonHTMLAttributes<HTMLButtonElement>,
-  HTMLButtonElement
-> & {
+export type ButtonProps = React.HTMLAttributes<HTMLButtonElement> & {
   size?: keyof typeof sizeClassNames
 }
 

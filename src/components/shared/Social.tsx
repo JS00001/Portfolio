@@ -1,8 +1,6 @@
-import { HTMLAttributes, ReactNode } from 'react'
-
-export type SocialProps = HTMLAttributes<HTMLAnchorElement> & {
+export type SocialProps = React.HTMLAttributes<HTMLAnchorElement> & {
   link: string
-  icon: ReactNode
+  icon: React.ReactNode
   text: string
 }
 

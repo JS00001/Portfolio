@@ -1,11 +1,5 @@
-import { HTMLAttributes } from 'react'
-
-export type ParagraphProps = HTMLAttributes<HTMLDivElement> & {
-  message: string
-}
-
-export const Paragraph: React.FC<ParagraphProps> = ({
-  message,
+export const Paragraph: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
+  children,
   className = '',
   ...props
 }) => {
@@ -14,7 +8,7 @@ export const Paragraph: React.FC<ParagraphProps> = ({
       className={`mb-5 text-xl font-medium leading-relaxed ${className}`}
       {...props}
     >
-      {message}
+      {children}
     </p>
   )
 }
