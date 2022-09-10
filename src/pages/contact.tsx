@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import NavBar from '../components/layout/NavBar'
+import NavBar from '../components/Navbar/Navbar'
 import Contact from '../components/sections/Contact'
 
 const ContactPage: React.FC = () => {

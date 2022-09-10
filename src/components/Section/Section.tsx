@@ -1,4 +1,4 @@
-export const Section: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
+const Section: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
   className = '',
   children,
   ...props
@@ -12,3 +12,5 @@ export const Section: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
     </div>
   )
 }
+
+export default Section
