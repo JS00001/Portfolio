@@ -1,10 +1,10 @@
 import Head from 'next/head';
-import Hero from '../components/sections/Hero';
-import About from '../components/sections/About';
+import Hero from '../components/Pages/Hero';
+import About from '../components/Pages/About';
 import NavBar from '../components/Navbar/Navbar';
 import Loading from '../components/Loading/Loading';
-import Process from '../components/sections/Process';
-import Projects from '../components/sections/Projects';
+import Process from '../components/Pages/Process';
+import Projects from '../components/Pages/Projects';
 import useProjects from '../hooks/useProjects';
 
 const HomePage: React.FC = () => {

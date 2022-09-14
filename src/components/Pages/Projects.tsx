@@ -1,8 +1,8 @@
 import React from 'react';
-import Content from '../../content';
-import { Header } from '../shared/Header';
+import Header from '../Header';
 import Section from '../Section';
-import { Project } from '../shared/Project';
+import Project from '../Project';
+import Content from '../../content';
 import { getFileUrl } from '../../api';
 
 export type ProjectProps = {

@@ -1,8 +1,8 @@
 import React from 'react';
+import Social from '../Social';
 import Content from '../../content';
-import { Social } from '../shared/Social';
+import Paragraph from '../Paragraph';
 import Section from '../Section/Section';
-import { Paragraph } from '../shared/Paragraph';
 
 const About: React.FC = () => {
 	return (

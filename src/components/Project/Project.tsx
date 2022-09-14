@@ -8,7 +8,7 @@ export type ProjectProps = React.HTMLAttributes<HTMLDivElement> & {
 	description: string;
 };
 
-export const Project: React.FC<ProjectProps> = ({
+const Project: React.FC<ProjectProps> = ({
 	image,
 	tag,
 	url,
@@ -36,3 +36,5 @@ export const Project: React.FC<ProjectProps> = ({
 		</Link>
 	);
 };
+
+export default Project;

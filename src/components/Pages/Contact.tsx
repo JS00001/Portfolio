@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
+import Button from '../Button';
 import Content from '../../content';
 import Section from '../Section/Section';
-import { Button } from '../shared/Button';
 
 const Contact: React.FC = () => {
 	return (

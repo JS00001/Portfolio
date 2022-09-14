@@ -1,10 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
+
+import Header from '../Header';
+import Button from '../Button';
 import Content from '../../content';
-import { Header } from '../shared/Header';
-import { Button } from '../shared/Button';
 import Section from '../Section/Section';
-import { ProjectStrategy } from '../shared/ProjectStrategy';
+import ProjectStrategy from '../ProjectStrategy';
 
 const Process: React.FC = () => {
 	return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Content from '../../content';
-import { Button } from '../shared/Button';
+import Button from '../Button';
 import Section from '../Section/Section';
 
 const Hero: React.FC = () => {
