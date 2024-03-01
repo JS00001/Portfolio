@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
 			{/* Hero Image */}
 			<div className='hidden items-center justify-center xl:flex'>
 				<img
-					src='https://media.discordapp.net/attachments/845809714364809246/953639392575127643/unknown.png?width=939&height=676'
+					src='https://content.jacksenyitko.com/uploads/Dashboard_Design_a0c2e741f1.png'
 					className='rounded-lg border border-gray-200'
 				/>
 			</div>
