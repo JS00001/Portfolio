@@ -95,7 +95,7 @@ export default {
       },
       {
         text: 'Resume',
-        link: 'https://docs.google.com/document/d/1lDSnFUtoUmByBm1ZG_2xIkeMBD7bNr_EwoYQe8P8ov8/edit?usp=sharing',
+        link: 'https://docs.google.com/document/d/1O6kbr63fVCgM2y2NPC4AGuOJqrRlONGeVRs8sRnycVc/edit?usp=sharing',
       },
     ],
   },
